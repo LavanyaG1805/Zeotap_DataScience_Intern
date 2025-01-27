@@ -1,15 +1,18 @@
+# Task 2: Lookalike Model
+
 This project implements a Lookalike Model that identifies and recommends the top 3 most similar customers based on their profile and transaction history. The recommendations are generated using a combination of customer demographics, transaction behavior, and product category preferences.
 
-# Features #
-##Feature Engineering:##
-*Customer profiles (Region) with one-hot encoding.
-* Transaction behavior (total spend, average spend, transaction count, items purchased).
-* Product category preferences (percentage spend per category).
+## Features
 
-##Similarity Calculation:##
-*Features are standardized using StandardScaler.
-*Pairwise cosine similarity is calculated to identify similar customers.
+### Feature Engineering:
+- Customer profiles (`Region`) with one-hot encoding.
+- Transaction behavior (total spend, average spend, transaction count, items purchased).
+- Product category preferences (percentage spend per category).
 
-##Output:##
-*A CSV file with top 3 similar customers for the first 20 customers.
-*Each record includes the customer_id and a list of recommendations with similarity scores.
+### Similarity Calculation:
+- Features are standardized using `StandardScaler`.
+- Pairwise cosine similarity is calculated to identify similar customers.
+
+### Output:
+- A CSV file with top 3 similar customers for the first 20 customers.
+- Each record includes the `customer_id` and a list of recommendations with similarity scores.
