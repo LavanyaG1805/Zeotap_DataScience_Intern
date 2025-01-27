@@ -5,7 +5,6 @@ This EDA aims to uncover patterns and insights from customer, product, and trans
 
 ## Data Inspection and Cleaning
 - Reviewed missing values, data types, and duplicates.
-- Converted columns (e.g., dates, numeric fields) to appropriate formats.
 - Ensured datasets were free of duplicates and handled missing critical values.
 
 ## Merging Datasets
